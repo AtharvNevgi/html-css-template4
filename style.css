@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     background-position: cover;
-    background-size: cover;
+    background-size: contain ;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +9,15 @@
     /*align-items: center; */
 }
 .container1 {
-    background-image: url(https://prium.github.io/freya/v2.1.0/assets/img/header_1.jpg);
-    height: 100vh;
+    background-image: url(img/header_1.jpg);
+    height: 150vh;
+}
+.navbar {
+    position: fixed;
+    width: 80%;
+    height: 55px;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 20px;
+    border-radius: 20px;
 }
